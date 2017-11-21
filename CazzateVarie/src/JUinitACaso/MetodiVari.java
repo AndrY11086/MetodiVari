@@ -59,7 +59,7 @@ public class MetodiVari {
 		
 		return true;
 	}
-	
+	//eccheccazzo
 	
 	public static int sommaValori(){
 		return numeri[0] + numeri[dim-1];
