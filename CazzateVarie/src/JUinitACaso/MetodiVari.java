@@ -6,7 +6,12 @@ public class MetodiVari {
 
 	private int number;
 	private static int dim;
-	private static int [] numeri;
+	public static int getDim() {
+		return dim;
+	}
+
+
+	public static int [] numeri;
 	
 	public MetodiVari(){
 		number = 0;
@@ -59,7 +64,7 @@ public class MetodiVari {
 		
 		return true;
 	}
-	//eccheccazzo
+
 	
 	public static int sommaValori(){
 		return numeri[0] + numeri[dim-1];
